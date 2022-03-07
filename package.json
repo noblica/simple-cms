@@ -1,17 +1,29 @@
 {
   "name": "simple-cms",
-  "version": "1.0.0",
+  "version": "0.1.0",
+  "private": true,
   "description": "A simple CMS",
   "scripts": {
-    "start": "json-server --watch db.json"
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "start:server": "json-server --watch db.json --port 3001"
   },
-  "keywords": [
-    "simple",
-    "cms"
-  ],
-  "author": "Dusan Perkovic & Milos Peric",
-  "license": "MIT",
   "dependencies": {
-    "json-server": "^0.17.0"
+    "autoprefixer": "^10.4.2",
+    "json-server": "^0.17.0",
+    "next": "12.1.0",
+    "postcss": "^8.4.8",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "tailwindcss": "^3.0.23"
+  },
+  "devDependencies": {
+    "@types/node": "17.0.21",
+    "@types/react": "17.0.39",
+    "eslint": "8.10.0",
+    "eslint-config-next": "12.1.0",
+    "typescript": "4.6.2"
   }
 }
