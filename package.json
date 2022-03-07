@@ -1,0 +1,17 @@
+{
+  "name": "simple-cms",
+  "version": "1.0.0",
+  "description": "A simple CMS",
+  "scripts": {
+    "start": "json-server --watch db.json"
+  },
+  "keywords": [
+    "simple",
+    "cms"
+  ],
+  "author": "Dusan Perkovic & Milos Peric",
+  "license": "MIT",
+  "dependencies": {
+    "json-server": "^0.17.0"
+  }
+}
