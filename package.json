@@ -1,7 +1,6 @@
 {
   "name": "simple-cms",
   "version": "0.1.0",
-  "private": true,
   "description": "A simple CMS",
   "scripts": {
     "dev": "next dev",
